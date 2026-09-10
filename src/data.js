@@ -4,6 +4,8 @@
 // Replace the placeholder image paths with real photos placed
 // in /src/assets (see README for exact filenames expected).
 // ─────────────────────────────────────────────────────────────
+import fullbody from './assets/fullbody.jpg'
+import headshot from './assets/headshot.jpg'
 
 export const profile = {
   name: 'Lesego Madisha',
@@ -36,8 +38,8 @@ export const stats = [
 // Gallery images. `span` controls the grid size in the editorial
 // masonry layout: "tall" | "wide" | "large" | "" (default single cell).
 export const gallery = [
-  { id: 'g1', category: 'Photoshoot', title: 'Aurora', span: '', src: '/src/assets/fullbody.png' },
-  { id: 'g2', category: 'Photoshoot', title: 'Aurora', span: '', src: '/src/assets/headshot.png' }
+  { id: 'g1', category: 'Photoshoot', title: 'Aurora', span: '', src: fullbody },
+  { id: 'g2', category: 'Photoshoot', title: 'Aurora', span: '', src: headshot}
 
 ]
 

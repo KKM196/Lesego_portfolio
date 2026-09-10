@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { profile } from '../data.js'
-import fullbody from '../assets/fullbody.png'
+import fullbody from '../assets/fullbody.jpg'
 // Renders a line of text as one span per letter so each can be
 // staggered in with its own transition-delay via the --i variable.
 function AnimatedLine({ text, startIndex = 0 }) {

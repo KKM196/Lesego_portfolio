@@ -1,7 +1,13 @@
+const experience = [
+  { client: 'Vogue' },
+  { client: 'Elle' },
+  { client: 'Harpers Bazaar' },
+  { client: 'GQ' },
+  { client: 'Cosmopolitan' },
+]
 
 export default function Marquee() {
   const names = Array.from(new Set(experience.map((e) => e.client)))
-  // Duplicate the list so the CSS animation can loop seamlessly at -50%.
   const track = [...names, ...names]
 
   return (
