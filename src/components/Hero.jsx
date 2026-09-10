@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
 import { profile } from '../data.js'
 import fullbody from '../assets/fullbody.jpg'
-// Renders a line of text as one span per letter so each can be
-// staggered in with its own transition-delay via the --i variable.
+
 function AnimatedLine({ text, startIndex = 0 }) {
   return (
     <span className="hero__name-line">
@@ -29,9 +28,7 @@ export default function Hero() {
   return (
     <section id="top" className={`hero ${ready ? 'is-ready' : ''}`}>
       <div className="hero__image">
-        <div className="hero__image-inner">
-          <img src={fullbody} alt="Beauty look, Aurora" className="hero-img" />
-        </div>
+        <img src={fullbody} alt="Full-body portrait" className="hero__img" />
       </div>
 
       <div className="hero__type">
@@ -43,7 +40,7 @@ export default function Hero() {
         <p className="hero__note">{profile.heroNote}</p>
       </div>
 
-      <a className="hero__scroll" href="#work">
+      <a className="hero__scroll" href="#photoshoot">
         <span>Scroll</span>
         <span className="hero__scroll-line" />
       </a>

@@ -6,19 +6,21 @@
 // ─────────────────────────────────────────────────────────────
 import fullbody from './assets/fullbody.jpg'
 import headshot from './assets/headshot.jpg'
+import headshot2 from './assets/headshot2.jpg'
+import headshot3 from './assets/headshot3.jpg'
 
 export const profile = {
   name: 'Lesego Madisha',
   agency: 'Aurora',
   location: 'Johanessburg/ available worldwide',
   tagline: 'Runway model working across fashion, beauty, and film.',
-  heroNote: '5\u2019 4" — currently based in Johanessburg'
+  heroNote: '5\u2019 7" — currently based in Johanessburg'
 }
 
 export const about = {
   heading: 'A quiet intensity in front of the camera',
   paragraphs: [
-    'I started modeling with Aurora after a scout approached me on instagram — the kind of story that sounds made up until it happens to you. Since then I\u2019ve worked across editorial, runway, and commercial beauty.',
+    'I started modeling with Aurora after a scout approached me on instagram — the kind of story that sounds made up until it happens to you.',
     'I like sets that ask for something specific: a character, a mood, a piece of choreography for the body. Off-camera I study printmaking, which is probably why I\u2019m drawn to work with strong graphic direction.',
   ],
 }
@@ -35,12 +37,12 @@ export const stats = [
   { label: 'Dress', value: 'Small' },
 ]
 
-// Gallery images. `span` controls the grid size in the editorial
-// masonry layout: "tall" | "wide" | "large" | "" (default single cell).
-export const gallery = [
-  { id: 'g1', category: 'Photoshoot', title: 'Aurora', span: '', src: fullbody },
-  { id: 'g2', category: 'Photoshoot', title: 'Aurora', span: '', src: headshot}
-
+// Photoshoot gallery — add as many as you like. Each entry needs
+// `src` (imported image) and `alt` (short description for screen readers).
+export const photoshoot = [
+  { src: fullbody,  alt: 'Full-body beauty shot' },
+  { src: headshot,  alt: 'Close-up beauty shot' },
+  { src: headshot2, alt: 'Beauty portrait' },
 ]
 
 export const contact = {
