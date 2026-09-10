@@ -1,4 +1,3 @@
-import { experience } from '../data.js'
 
 export default function Marquee() {
   const names = Array.from(new Set(experience.map((e) => e.client)))

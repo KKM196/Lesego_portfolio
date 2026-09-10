@@ -36,8 +36,8 @@ export const stats = [
 // Gallery images. `span` controls the grid size in the editorial
 // masonry layout: "tall" | "wide" | "large" | "" (default single cell).
 export const gallery = [
-  { id: 'g1', category: 'Photoshoot', title: 'Aurora', span: '', src: '/src/assets/fullbody.PNG' },
-  { id: 'g2', category: 'Photoshoot', title: 'Aurora', span: '', src: '/src/assets/headshot.PNG' }
+  { id: 'g1', category: 'Photoshoot', title: 'Aurora', span: '', src: '/src/assets/fullbody.png' },
+  { id: 'g2', category: 'Photoshoot', title: 'Aurora', span: '', src: '/src/assets/headshot.png' }
 
 ]
 

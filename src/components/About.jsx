@@ -1,5 +1,5 @@
 import { about } from '../data.js'
-   import headshot from '../assets/headshot'
+   import headshot from '../assets/headshot.png'
 export default function About() {
   return (
     <section id="about" className="about">
