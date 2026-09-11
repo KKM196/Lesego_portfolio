@@ -288,8 +288,12 @@ section { padding: 96px var(--pad); max-width: var(--max); margin: 0 auto; }
   .hero__tagline { font-size: 1rem; }
   .hero__scroll { display: none; }
 }
-/*------------Marquee (client ticker) ────────────────────────────── */
+/* ── Marquee (static) ──────────────────────── */
 .marquee {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   background: var(--ink);
   color: var(--paper);
   overflow: hidden;
@@ -297,26 +301,27 @@ section { padding: 96px var(--pad); max-width: var(--max); margin: 0 auto; }
   border-top: 1px solid var(--ink);
   border-bottom: 1px solid var(--ink);
 }
-.marquee__track {
-  display: flex;
-  width: max-content;
-  animation: marquee-scroll linear infinite;
-  /* duration set inline by JS based on track width */
-}
+
 .marquee__item {
   display: inline-flex;
   align-items: center;
   font-family: var(--display);
   font-style: italic;
-  font-size: clamp(1.3rem, 3vw, 1.9rem);
+  font-size: clamp(1.1rem, 3vw, 1.7rem);
   white-space: nowrap;
-  padding: 0 28px;
+  padding: 0 25px;
 }
-.marquee__dot { color: var(--accent-soft); margin-left: 28px; font-style: normal; }
 
-@keyframes marquee-scroll {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+.marquee__dot {
+  color: var(--accent-soft);
+  margin-left: 24px;
+  font-style: normal;
+}
+
+@media (max-width: 760px) {
+  .marquee { padding: 18px 0; }
+  .marquee__item { padding: 0 14px; font-size: 1.1rem; }
+  .marquee__dot { margin-left: 16px; }
 }
 /* ── Gallery ────────────────────────────────────────────── */
 .gallery__head {
