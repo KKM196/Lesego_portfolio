@@ -300,15 +300,9 @@ section { padding: 96px var(--pad); max-width: var(--max); margin: 0 auto; }
 .marquee__track {
   display: flex;
   width: max-content;
-  animation: marquee-scroll 40s linear infinite;
+  animation: marquee-scroll linear infinite;
+  /* duration set inline by JS based on track width */
 }
-
-@media (max-width: 760px) {
-  .marquee__track {
-    animation-duration: 60s;
-  }
-}
-.marquee:hover .marquee__track { animation-play-state: paused; }
 .marquee__item {
   display: inline-flex;
   align-items: center;

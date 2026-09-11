@@ -47,7 +47,7 @@ export const gallery = [
 ]
 
 export const contact = {
-  bookingEmail: 'madishajulia058gmail.com',
+  bookingEmail: 'madishajulia058@gmail.com',
   agencyPhone: '+27 65 893 7824',
   instagram: '@b.onitaa',
   agencyName: 'Aurora',
