@@ -1,7 +1,7 @@
 import Nav from './components/Nav.jsx'
 import Hero from './components/Hero.jsx'
 import Marquee from './components/Marquee.jsx'
-import Photoshoot from './components/Photoshoot.jsx'
+import Gallery from './components/Gallery.jsx'
 import About from './components/About.jsx'
 import Stats from './components/Stats.jsx'
 import Contact from './components/Contact.jsx'
@@ -16,7 +16,7 @@ export default function App() {
       <main>
         <Hero />
         <Marquee />
-        <Photoshoot />
+        <Gallery />
         <About />
         <Stats />
         <Contact />
