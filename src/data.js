@@ -24,8 +24,9 @@ export const profile = {
 export const about = {
   heading: 'A quiet intensity in front of the camera',
   paragraphs: [
-    'I started modeling with Aurora after a scout approached me on Instagram — the kind of story that sounds made up until it happens to you.',
-    'Off-camera I study printmaking, which is probably why I\u2019m drawn to work with strong graphic direction.',
+    'I am a versatile model with a strong presence in front of the camera and on the runway.', 
+    'With a passion for fashion, beauty and creative expression, I bring confidence, elegance and adaptability to every shoot.', 
+    'I am dedicated, professional, and excited to work with brands and creatives to bring visions to life.',
   ],
   pullQuote:
     'I like sets that ask for something specific: a character, a mood, a piece of choreography for the body.',
