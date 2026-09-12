@@ -4,15 +4,21 @@
 // ─────────────────────────────────────────────────────────────
 import fullbody from './assets/fullbody.jpg'
 import headshot from './assets/headshot.jpg'
-import headshot2 from './assets/headshot2.jpg'
 import headshot3 from './assets/headshot3.jpg'
+import bow from './assets/bow.jpg'
+import chair1 from './assets/chair1.jpg'
+import chair2 from './assets/chair2.jpg'
+import chair3 from './assets/chair3.jpg'
+import cross from './assets/cross.jpg'
+import halfbody1 from './assets/halfbody1.jpg'
+import leg1 from './assets/leg1.jpg'
 
 export const profile = {
   name: 'Lesego Madisha',
   agency: 'Aurora',
   location: 'Johannesburg / available worldwide',
   tagline: 'Commercial model working across fashion, beauty, and film.',
-  heroNote: '5\u2019 7" — currently based in Johannesburg',
+  heroNote: '5\u2019 0" — currently based in Johannesburg',
 }
 
 export const about = {
@@ -26,7 +32,7 @@ export const about = {
 }
 //Comp-card style measurements — the back-of-card details agencies expect.
 export const stats = [
-  { label: 'Height', value: '5\u2019 7"' },
+  { label: 'Height', value: '5\u2019 0"' },
   { label: 'Bust', value: '31"' },
   { label: 'Waist', value: '27"' },
   { label: 'Hips', value: '21"' },
@@ -40,14 +46,19 @@ export const stats = [
 // derives them from whatever categories exist here, so adding a new one
 // automatically shows up as a new filter.
 export const gallery = [
-  { id: 'g1', category: 'Photoshoot', title: 'Full-body', year: '2026', src: fullbody },
-  { id: 'g2', category: 'Photoshoot', title: 'Portrait',  year: '2026', src: headshot },
-  { id: 'g3', category: 'Photoshoot', title: 'Aurora I',  year: '2026', src: headshot2 },
-  { id: 'g4', category: 'Photoshoot', title: 'Aurora II', year: '2026', src: headshot3 },
+  { id: 'g01', category: 'Photoshoot', title: 'Aurora ',    year: '2026', src: fullbody },
+  { id: 'g02', category: 'Photoshoot', title: 'Aurora ',     year: '2026', src: headshot },
+  { id: 'g04', category: 'Photoshoot', title: 'Aurora ',    year: '2026', src: headshot3 },
+  { id: 'g07', category: 'Photoshoot', title: 'Aurora ',     year: '2026', src: chair2 },
+  { id: 'g05', category: 'Photoshoot', title: 'Aurora ',          year: '2026', src: bow },
+  { id: 'g06', category: 'Photoshoot', title: 'Aurora ',      year: '2026', src: chair1 },
+  { id: 'g08', category: 'Photoshoot', title: 'Aurora ',    year: '2026', src: chair3 },
+  { id: 'g09', category: 'Photoshoot', title: 'Aurora ',        year: '2026', src: cross },
+  { id: 'g10', category: 'Photoshoot', title: 'Aurora ',    year: '2026', src: halfbody1 }
 ]
 
 export const contact = {
-  bookingEmail: 'madishajulia058@gmail.com',
+  bookingEmail: 'b.onitaa.collabs@gmail.com',
   agencyPhone: '+27 65 893 7824',
   instagram: '@b.onitaa',
   agencyName: 'Aurora',
