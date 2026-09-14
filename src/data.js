@@ -17,16 +17,18 @@ export const profile = {
   name: 'Lesego Madisha',
   agency: 'Aurora',
   location: 'Johannesburg / available worldwide',
-  tagline: 'Commercial model working across fashion, beauty, and film.',
+  tagline: 'Commercial and runway model working across fashion, beauty, and film.',
   heroNote: '5\u2019 0" — currently based in Johannesburg',
 }
 
 export const about = {
   heading: 'A quiet intensity in front of the camera',
   paragraphs: [
-    'I am a versatile model with a strong presence in front of the camera and on the runway.', 
-    'With a passion for fashion, beauty and creative expression, I bring confidence, elegance and adaptability to every shoot.', 
-    'I am dedicated, professional, and excited to work with brands and creatives to bring visions to life.',
+    'I\u2019m a model from Johannesburg.',
+    'I\u2019m passionate about fashion, commercial modeling and runway. Modeling is something I truly love because it lets me express myself.',
+    'I\u2019m friendly, confident and professional on set, and I\u2019m a fast learner who takes direction well. I enjoy posing and learning the runway walk, and I love working with photographers and brands to create beautiful images.',
+    'I\u2019m at the start of my journey and excited to grow and learn more in the industry.',
+  
   ],
   pullQuote:
     'I like sets that ask for something specific: a character, a mood, a piece of choreography for the body.',
